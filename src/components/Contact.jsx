@@ -18,7 +18,7 @@ const Contact = () => {
     contact.message.length > 0;
 
     if (isValid) {
-      emailjs.sendForm('service_9lw5t6q', 'template_kstozcd', form.current, { publicKey: 'vYhO1yqWGWst7K7yg', }).then(
+      emailjs.sendForm('', '', form.current, { publicKey: '', }).then(
           () => {
             console.log('Success!');
             toast('Message mailed successfully!', {
